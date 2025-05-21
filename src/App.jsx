@@ -1,10 +1,10 @@
-import HomePageDisplaySection from "./Components/HomePageDisplaySection/HomePageDisplaySection"
+import HomePage from './Components/HomePage'
 
 function App() {
 
   return (
     <>
-      <HomePageDisplaySection header1 = "Menu" header2 = "Full Menu" />
+       <HomePage />
     </>
   )
 }

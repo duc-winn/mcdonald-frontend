@@ -1,8 +1,5 @@
 import './HomePageDisplaySection.css'
-import McMeal from '../../../public/mcMeals.jpg'
-import Burgers from '../../../public/burgers.jpg'
-import Chickens from '../../../public/chickens.jpg'
-import HappyMeal from '../../../public/happymeal.jpg'
+
 
 function HomePageDisplaySection(prop){
     return(
@@ -16,19 +13,19 @@ function HomePageDisplaySection(prop){
                 </div>
                 <div className='HomePageMenuContainer'>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={McMeal} />
+                        <img className='HomePageImg' src={prop.McMeal} />
                         <div className='HomePageMealName'>Meals</div>
                     </div>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={Burgers} />
+                        <img className='HomePageImg' src={prop.Burgers} />
                         <div className='HomePageMealName'>Burgers</div>
                     </div>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={Chickens} />
+                        <img className='HomePageImg' src={prop.Chicken} />
                         <div className='HomePageMealName'>Chicken</div>
                     </div>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={HappyMeal} />
+                        <img className='HomePageImg' src={prop.HappyMeal} />
                         <div className='HomePageMealName'>Happy Meal</div>
                     </div>
                 </div>
