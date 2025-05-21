@@ -1,0 +1,39 @@
+.HomeDisplaySection2 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.HomePageImg {
+  width: 100%;       /* Responsive width */
+  max-width: 300px;  /* Maximum display width */
+  aspect-ratio: 1/1; /* Force square container (or use your preferred ratio) */
+  overflow: hidden; /* Crop overflow */
+  filter: drop-shadow(-4px 4px 6px rgba(0, 0, 0, 0.3)); 
+}
+
+.HomePageCard{
+    margin-right: 10px;
+}
+
+.HomeDisplaySection1 {
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.HomeDisplaySectionLink{
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;    /* Vertical center */
+}
+
+.HomePageMealName{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.HomePageMenuContainer{
+    display: flex;
+    justify-content: space-between;
+}

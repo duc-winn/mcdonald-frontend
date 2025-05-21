@@ -1,11 +1,10 @@
-
-import TestComponent from './testcomponent.jsx'
+import HomePageDisplaySection from "./Components/HomePageDisplaySection/HomePageDisplaySection"
 
 function App() {
 
   return (
     <>
-      <TestComponent />
+      <HomePageDisplaySection header1 = "Menu" header2 = "Full Menu" />
     </>
   )
 }
