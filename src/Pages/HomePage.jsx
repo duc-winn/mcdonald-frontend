@@ -1,4 +1,4 @@
-import HomePageDisplaySection from "./HomePageDisplaySection/HomePageDisplaySection"
+import HomePageDisplaySection from "../Components/HomePageDisplaySection/HomePageDisplaySection"
 import McMeal from '../../public/mcMeals.jpg'
 import Burgers from '../../public/burgers.jpg'
 import Chickens from '../../public/chickens.jpg'
