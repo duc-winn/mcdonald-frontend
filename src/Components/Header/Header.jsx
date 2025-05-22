@@ -2,7 +2,7 @@ import Logo from '../../../public/logo.png'
 import './Header.css'
 
 function Header(prop){
-    let points = 0
+    let points = 1200
     let isLoggedIn = true
     return(<>
         <div className='Header'>
@@ -12,9 +12,10 @@ function Header(prop){
             { isLoggedIn? (
                 <h3 className='PointsDisplay'>
                     {points} pts
-                </h3>) : (<></>)
+                </h3>) 
+                
+                : (<></>)
             }
-
         </div>
     </>)
 }
