@@ -1,10 +1,13 @@
-import HomePageDisplaySection from "./Components/HomePageDisplaySection/HomePageDisplaySection"
-
+import HomePage from './Pages/HomePage'
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 function App() {
 
   return (
     <>
-      <HomePageDisplaySection header1 = "Menu" header2 = "Full Menu" />
+       <Header />
+       <HomePage />
+       <Footer />
     </>
   )
 }

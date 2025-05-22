@@ -1,8 +1,5 @@
 import './HomePageDisplaySection.css'
-import McMeal from '../../../public/mcMeals.jpg'
-import Burgers from '../../../public/burgers.jpg'
-import Chickens from '../../../public/chickens.jpg'
-import HappyMeal from '../../../public/happymeal.jpg'
+import {FiArrowRight} from 'react-icons/fi'
 
 function HomePageDisplaySection(prop){
     return(
@@ -11,25 +8,25 @@ function HomePageDisplaySection(prop){
                 <div className="HomeDisplaySection2">
                     <h1>{prop.header1}</h1>
                     <div className='HomeDisplaySectionLink'>
-                        <a href='https://www.youtube.com/'>{prop.header2}</a>
+                        <a href='https://www.youtube.com/'>{prop.header2} <FiArrowRight className="icon-right" /></a>
                     </div>
                 </div>
                 <div className='HomePageMenuContainer'>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={McMeal} />
-                        <div className='HomePageMealName'>Meals</div>
+                        <img className='HomePageImg' src={prop.pic1} />
+                        <div className='HomePageMealName'>{prop.ImgTitle1}</div>
                     </div>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={Burgers} />
-                        <div className='HomePageMealName'>Burgers</div>
+                        <img className='HomePageImg' src={prop.pic2} />
+                        <div className='HomePageMealName'>{prop.ImgTitle2}</div>
                     </div>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={Chickens} />
-                        <div className='HomePageMealName'>Chicken</div>
+                        <img className='HomePageImg' src={prop.pic3} />
+                        <div className='HomePageMealName'>{prop.ImgTitle3}</div>
                     </div>
                     <div className='HomePageCard'>
-                        <img className='HomePageImg' src={HappyMeal} />
-                        <div className='HomePageMealName'>Happy Meal</div>
+                        <img className='HomePageImg' src={prop.pic4} />
+                        <div className='HomePageMealName'>{prop.ImgTitle4}</div>
                     </div>
                 </div>
             </div>
